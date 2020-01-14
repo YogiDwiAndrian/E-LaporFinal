@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:padding="16dp"
+    android:layout_marginBottom="20dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_isi">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/lbl_kategori"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:text="Kategori" />
+
+    <TextView
+        android:id="@+id/tv_kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="monospace"
+        android:layout_toEndOf="@id/lbl_timestamp"
+        android:layout_marginStart="20dp"
+        android:text="Lalu-Lintas" />
+
+    <TextView
+        android:id="@+id/lbl_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/lbl_kategori"
+        android:text="Judul" />
+
+    <TextView
+        android:id="@+id/tv_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="monospace"
+        android:layout_toEndOf="@id/lbl_timestamp"
+        android:layout_below="@+id/lbl_kategori"
+        android:layout_marginStart="20dp"
+        android:maxLines="1"
+        android:text="Laka Lantas" />
+
+    <TextView
+        android:id="@+id/lbl_isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:layout_below="@+id/lbl_judul"
+        android:text="Isi" />
+
+    <TextView
+        android:id="@+id/tv_isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="monospace"
+        android:layout_toEndOf="@id/lbl_timestamp"
+        android:layout_below="@+id/lbl_judul"
+        android:layout_marginStart="20dp"
+        android:maxLines="2"
+        android:text="Lorem Ipsum Dolor Sit Amet" />
+
+    <TextView
+        android:id="@+id/lbl_latlong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@+id/tv_isi"
+        android:text="Lat/Long" />
+
+    <TextView
+        android:id="@+id/tv_latlong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="monospace"
+        android:layout_toEndOf="@id/lbl_timestamp"
+        android:layout_below="@+id/tv_isi"
+        android:layout_marginStart="20dp"
+        android:text="0.0/0.0" />
+
+    <TextView
+        android:id="@+id/lbl_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:layout_below="@+id/lbl_latlong"
+        android:text="Timestamp" />
+
+    <TextView
+        android:id="@+id/tv_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:fontFamily="monospace"
+        android:layout_toEndOf="@id/lbl_timestamp"
+        android:layout_below="@+id/lbl_latlong"
+        android:layout_marginStart="20dp"
+        android:text="yyyy-MM-dd" />
+
+    </RelativeLayout>
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

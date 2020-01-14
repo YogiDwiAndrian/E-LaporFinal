@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-Lapor</string>
+
+    <string-array name="spinner_kategori">
+        <item>Lalu-lintas</item>
+        <item>Infrastruktur</item>
+        <item>Sosial</item>
+    </string-array>
+</resources>
